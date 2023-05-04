@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mini-container {
+    background-color: #eaeaea;
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.box-1 {
+    width: 90%;
+    height: 105vh;
+    background-color: white;
+}
+
+.text-section {
+    height: 45vh;
+}
+
+.img-section {
+    height: 55vh;
+}
+
+nav {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding-left: 50px;
+}
+
+.img-1 {
+    display: flex;
+    align-items: center;
+}
+
+.img-1 img {
+    height: 30px;
+    border-radius: 10px;
+}
+
+.img-1 a {
+    text-decoration: none;
+    margin-left: 5px;
+    font-size: 10px;
+    font-size: bold;
+}
+
+ul {
+    width: 35%;
+    display: flex;
+    padding-left: 50px;
+    margin-left: 20px;
+
+}
+
+ul li {
+    list-style: none;
+    font-size: 12px;
+    padding-left: 60px;
+}
+
+span {
+    width: 30%;
+    padding-left: 80px;
+}
+
+span :first-child {
+    border: none;
+    width: 55px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+span :nth-last-child(1) {
+    margin-left: 10px;
+    color: black;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+    background-origin: none;
+}
+
+.smart-shop {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+}
+
+.text-section-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.text-section-1 h1 {
+    font-size: 55px;
+}
+
+.text-section-1 p {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.input-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+    margin-top: 20px;
+
+}
+
+.input-btn input {
+    height: 35px;
+    width: 60%;
+    border-radius: 8px;
+    border: none;
+    background-color: ghostwhite;
+    padding-left: 10px;
+}
+
+.input-btn button {
+    height: 35px;
+    width: 30%;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    margin-left: 5px;
+}
+
+.img-section img {
+    height: 55vh;
+    width: 100%;
+}
